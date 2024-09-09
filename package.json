@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "start": "node --env-file=.env ./api/index.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "wwebjs-devsakae": "^1.25.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4"
   }
 }
